@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="brand">CYBER // PORT</div>
+    <nav class="nav" id="nav">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#stack">Stack</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu" id="menu" aria-label="Toggle navigation">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__text">
+        <p class="eyebrow">Available for freelance // remote</p>
+        <h1>Hi, I am <span class="glow">Your Name</span><br />Building bold digital systems.</h1>
+        <p class="lede">Full-stack developer crafting responsive, high-performance experiences with a cyberpunk edge.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">View work</a>
+          <a class="btn ghost" href="#contact">Let's talk</a>
+        </div>
+        <div class="meta">
+          <div><span>10+</span> completed builds</div>
+          <div><span>5</span> shipped products</div>
+          <div><span>∞</span> curiosity</div>
+        </div>
+      </div>
+      <div class="hero__photo" aria-hidden="false">
+        <!-- Replace src with your actual image path, e.g., images/me.jpg -->
+        <img src="images/your-photo.jpg" alt="Portrait of Your Name" />
+      </div>
+      <div class="hero__panel">
+        <div class="status">
+          <div class="dot"></div>
+          <div>Live systems monitor</div>
+        </div>
+        <div class="statbox">
+          <div class="label">Focus</div>
+          <div class="value">Web // UX // Systems</div>
+        </div>
+        <div class="statbox">
+          <div class="label">Current stack</div>
+          <div class="value">React, Node, TypeScript, Three.js</div>
+        </div>
+        <div class="statbox">
+          <div class="label">Next slot</div>
+          <div class="value">January 2026</div>
+        </div>
+        <div class="pulse"></div>
+      </div>
+    </section>
+
+    <section class="about card" id="about">
+      <div class="section-title">About</div>
+      <div class="about__grid">
+        <p>I design and build resilient web applications that feel fast, intentional, and atmospheric. I enjoy pairing clean architectures with cinematic visual languages.</p>
+        <div class="chips">
+          <span>Design systems</span>
+          <span>Accessible motion</span>
+          <span>Data viz</span>
+          <span>WebGL</span>
+          <span>API design</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="section-title">Featured projects</div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="card__head">
+            <div class="tag">2025</div>
+            <div class="pill">Fintech</div>
+          </div>
+          <h3>Signal Terminal</h3>
+          <p>High-frequency portfolio monitor with live risk flags and gesture-driven controls.</p>
+          <div class="stack-tags"><span>React</span><span>WebSockets</span><span>D3</span></div>
+        </article>
+        <article class="project-card">
+          <div class="card__head">
+            <div class="tag">2024</div>
+            <div class="pill">Immersive</div>
+          </div>
+          <h3>Neon Atlas</h3>
+          <p>3D city explorer that blends GIS layers with narrative hotspots and neon atmospherics.</p>
+          <div class="stack-tags"><span>Three.js</span><span>Mapbox</span><span>TypeScript</span></div>
+        </article>
+        <article class="project-card">
+          <div class="card__head">
+            <div class="tag">2023</div>
+            <div class="pill">SaaS</div>
+          </div>
+          <h3>Pulseboard</h3>
+          <p>Operational dashboard for distributed teams with adaptive layouts and keyboard-first UX.</p>
+          <div class="stack-tags"><span>Next.js</span><span>Prisma</span><span>PostgreSQL</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="stack card" id="stack">
+      <div class="section-title">Stack</div>
+      <div class="stack__grid">
+        <div class="stack__col">
+          <h4>Frontend</h4>
+          <ul>
+            <li>React / Next.js</li>
+            <li>TypeScript</li>
+            <li>Framer Motion</li>
+            <li>Three.js / WebGL</li>
+          </ul>
+        </div>
+        <div class="stack__col">
+          <h4>Backend</h4>
+          <ul>
+            <li>Node.js / Express</li>
+            <li>GraphQL / REST</li>
+            <li>PostgreSQL / Redis</li>
+            <li>Auth & security</li>
+          </ul>
+        </div>
+        <div class="stack__col">
+          <h4>Workflow</h4>
+          <ul>
+            <li>Design systems</li>
+            <li>Performance budgets</li>
+            <li>Observability</li>
+            <li>CI/CD pipelines</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline" id="timeline">
+      <div class="section-title">Timeline</div>
+      <div class="timeline__wrap">
+        <div class="checkpoint">
+          <div class="dot"></div>
+          <div class="info">
+            <div class="title">Lead Engineer — Synth Labs</div>
+            <div class="meta">2024 — Present</div>
+            <p>Building immersive analytics for creative finance teams.</p>
+          </div>
+        </div>
+        <div class="checkpoint">
+          <div class="dot"></div>
+          <div class="info">
+            <div class="title">Product Engineer — Nova Grid</div>
+            <div class="meta">2022 — 2024</div>
+            <p>Delivered multi-tenant dashboards with live collaboration.</p>
+          </div>
+        </div>
+        <div class="checkpoint">
+          <div class="dot"></div>
+          <div class="info">
+            <div class="title">Creator — Freelance</div>
+            <div class="meta">2019 — 2022</div>
+            <p>Designed and shipped web products for early-stage teams.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact card" id="contact">
+      <div class="section-title">Contact</div>
+      <p>Tell me about your next build. I reply within 24 hours.</p>
+      <form class="contact__form" id="contactForm" action="contact.php" method="POST" novalidate>
+        <label>Project type
+          <select name="project" required>
+            <option value="">Select a project type</option>
+            <option>Web app</option>
+            <option>Brand + site</option>
+            <option>Data experience</option>
+            <option>Consulting</option>
+          </select>
+        </label>
+        <label>Name
+          <input name="name" placeholder="Ada Lovelace" required />
+        </label>
+        <label>Email
+          <input name="email" type="email" placeholder="you@example.com" required />
+        </label>
+        <label>Notes
+          <textarea name="notes" rows="4" placeholder="Timeline, goals, constraints..." required></textarea>
+        </label>
+        <button type="submit" class="btn primary">Send signal</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>Crafted with intent. Stay curious.</div>
+    <div class="socials">
+      <a href="#">GitHub</a>
+      <a href="#">Dribbble</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
